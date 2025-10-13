@@ -249,3 +249,35 @@
 <ul>
 <li>By visiting this page on our website: <a href="discord.gg/aEYSz2yXpm" rel="external nofollow noopener" target="_blank">discord.gg/aEYSz2yXpm</a></li>
 </ul>
+<!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Pokémon Mystery Dungeon: Silver Saviors of the Sky. All rights reserved.</p>
+            <p>All assets used in this site, and Pokémon Mystery Dungeon: Silver Saviors of the Sky are &trade; and &copy; their respective companies.</p>
+            <p>Created by <a href="https://linktr.ee/SilverTheShinyEevee" class="text-blue-500 underline">SilverTheShinyEevee</a></p>
+            <div class="mt-4">
+                <a href="https://silvertheshinyeevee.github.io/privacy-policy.html" class="text-blue-500 underline">Privacy Policy</a> |
+                <a href="https://silvertheshinyeevee.github.io/terms-and-conditions.html" class="text-blue-500 underline">Terms and Conditions</a> |
+                <a href="https://silvertheshinyeevee.github.io/cookie-policy.html" class="text-blue-500 underline"> Cookie Policy</a> | 
+                <a href="https://silvertheshinyeevee.github.io/disclaimer.html" class="text-blue-500 underline">Disclaimer</a>
+    <script>
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        themeToggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+
+        function isBrowserOutdated() {
+            try {
+                new Function("(a = 0) => a");
+                return false;
+            } catch (err) {
+                return true;
+            }
+        }
+
+        if (isBrowserOutdated()) {
+            document.getElementById('browser-warning').classList.add('show');
+        }
+    </script>
+</body>
+</html>
